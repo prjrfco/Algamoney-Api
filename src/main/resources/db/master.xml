@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+	  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+
+    <changeSet id="202003091327" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog/202003091327_create_table_categoria.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="202003131615" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog/202003131615_create_table_pessoa.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="202003261719" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog/202003261719_create_table_lancamento.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2020004101523" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog/202004101523_create_table_usuario.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="202004101524" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog/202004101524_create_table_permissao.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="202004101525" author="francisco" dbms="postgresql">
+        <sqlFile path="changelog/202004101525_create_table_usuario_permissao.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+
+</databaseChangeLog>
